@@ -14,6 +14,7 @@ export const Text = styled.Text`
     color: ${colors.white};
     font-weight: 700;
     font-size: 20px;
+    text-transform: capitalize;
 `
 
 export const Circle = styled.View`
