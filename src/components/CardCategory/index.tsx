@@ -6,6 +6,14 @@ type CardCategoryProps = {
     text: string;
 }
 
+/* 
+--btn
+-- 2 cartao
+-- cartao
+
+*/
+
+
 const CardCategory = ({ icon, text }: CardCategoryProps) => {
    return (
        <S.CardCategory>

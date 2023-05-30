@@ -1,9 +1,17 @@
+import { TouchableOpacityProps } from "react-native";
 import * as S from "./styles";
 
-const ButtonNav = () => {
-    return (<S.Button>
-        <S.Text>Concluir</S.Text>
-    </S.Button>)
+type ButtonProps = {
+    text: string
+} & TouchableOpacityProps
+
+
+const Button = ({text, ...rest}: ButtonProps) => {
+    return (
+        <S.Button {...rest}>
+            <S.Text>{text}</S.Text>
+        </S.Button>
+    )
 };
 
-export default ButtonNav;
+export default Button;

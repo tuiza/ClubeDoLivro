@@ -8,7 +8,7 @@ export const Button = styled.TouchableOpacity`
   align-items: center;
   justify-content: space-evenly;
   border-radius: 10px;
-    background-color: ${colors.primary};
+  background-color: ${colors.primary};
 `
 
 export const Text = styled.Text`
@@ -16,7 +16,7 @@ export const Text = styled.Text`
   font-size: 20px;
   line-height: 27px;
   text-align: center;
- 
+  color: ${colors.white};
 `
 
 export const Icon = styled.Image``;

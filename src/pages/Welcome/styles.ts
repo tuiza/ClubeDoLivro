@@ -4,7 +4,6 @@ import colors from '../../utils/colors'
 import { StatusBar, Platform } from 'react-native'
 
 export const Container = styled.View`
-    border: 2px solid red;
     flex: 1;
     padding: 10px;
     align-items: center;
