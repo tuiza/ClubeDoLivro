@@ -15,9 +15,11 @@ export const FormContainer = styled.View`
 `;
 
 export const ChoiceFormContainer = styled.View`
-  flex-direction:row;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-between;
   gap: 3px;
+  width: 250px;
 `;
 
 export const BookContainer = styled.View`

@@ -14,8 +14,8 @@ const Category = ({navigation}: any) => {
         <S.Container>
             <Button
                 text={'voltar'}
-                onPress={
-                    () => navigation.goBack()} />
+                onPress={() => navigation.goBack()} 
+            />
             <S.Title>
                 Selecione seus gêneros favoritos
             </S.Title>

@@ -27,6 +27,20 @@ export const ContainerBook = styled.View`
     align-items: center;
     justify-content: center;
 `
+export const ContainerText = styled.View`
+  align-items: center;
+`;
 
+export const Title = styled.Text`
+  font-size: 26px;
+  font-weight: 600;
+  color: ${colors.title};
+`;
+export const SubTitle = styled.Text`
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: ${colors.subtitle};
+`;
 
 
